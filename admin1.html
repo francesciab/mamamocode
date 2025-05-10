@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mergence Admin Form</title>
+  <link rel="stylesheet" href="admin1.css">
+</head>
+<body>
+  <div class="admin-container">
+    <header class="admin-header">
+      <div class="header-left">
+        <div class="logo">⊞</div>
+        <div class="notification-icon">🔔</div>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Report</a></li>
+          <li><a href="#">Hotlines</a></li>
+          <li><a href="#">Become a Partner</a></li>
+          <li><a href="#">Check Ticket</a></li>
+        </ul>
+      </nav>
+      <div class="profile">
+        <span class="profile-icon">👤</span>
+        <div class="profile-info">
+          <span class="profile-name">John Doe</span>
+          <span class="profile-role">Profile</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="admin-main">
+      <h1 class="brand">Mergence</h1>
+      <p class="tagline">The Life you can count on</p>
+
+      <section class="tracking-section">
+        <h2>Tracking System</h2>
+        <div class="tracking-form">
+          <input type="text" placeholder="MG-250001A" class="tracking-input">
+          <button class="btn btn-submit">Submit</button>
+        </div>
+      </section>
+
+      <section class="new-issue">
+        <h2>Create New Emergency Issue</h2>
+        <form class="issue-form">
+          <div class="form-group">
+            <label>Issue Title</label>
+            <input type="text" placeholder="Emergency Description">
+          </div>
+
+          <div class="form-group">
+            <label>Patient Name</label>
+            <input type="text" placeholder="Juan">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Location</label>
+              <input type="text" placeholder="Emergency Location">
+            </div>
+            
+            <div class="form-group">
+              <label>Assigned Responder</label>
+              <input type="text" placeholder="Medical Responder">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Emergency Details</label>
+            <textarea placeholder="Detailed information about the emergency"></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="btn btn-primary">Create Emergency Issue</button>
+            <button type="button" class="btn btn-secondary">Cancel</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="active-issues">
+        <div class="issues-header">
+          <h2>Active issues: MG-250001A</h2>
+          <div class="view-controls">
+            <button class="view-btn list active">☰</button>
+            <button class="view-btn grid">☐</button>
+            <button class="view-btn calendar">📅</button>
+          </div>
+        </div>
+
+        <table class="issues-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Title</th>
+              <th>Date</th>
+              <th>Responder</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1:15 PM</td>
+              <td>Report Created</td>
+              <td>2/24</td>
+              <td>👨‍⚕️</td>
+              <td>...</td>
+            </tr>
+            <tr>
+              <td>1:14 PM</td>
+              <td>Ticket: MG-250001A - Paramedics</td>
+              <td>2/24</td>
+              <td>👨‍⚕️</td>
+              <td>...</td>
+            </tr>
+            <tr>
+              <td>1:08 PM</td>
+              <td>Paramedics: Ricol Medical Center picked up the ticket</td>
+              <td>2/24</td>
+              <td>😃</td>
+              <td>...</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="update-section">
+          <h3>Add Status Update</h3>
+          <div class="update-form">
+            <input type="text" placeholder="Enter update details..." class="update-input">
+            <button class="btn btn-update">Add Update</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="admin-footer">
+      <div class="footer-left">
+        <div class="logo">⊞</div>
+      </div>
+      <div class="contact">
+        <p>Contact Us</p>
+        <p>mergence@gmail.com</p>
+      </div>
+      <div class="social">
+        <a href="#" class="social-icon">𝕏</a>
+        <a href="#" class="social-icon">📷</a>
+        <a href="#" class="social-icon">▶️</a>
+        <a href="#" class="social-icon">𝕃𝕚</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
